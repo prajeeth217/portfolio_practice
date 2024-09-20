@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <!-- css link -->
+  <link rel="stylesheet" href="./style.css">
+  <!-- fontawesome cdn link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <!-- font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+    <!-- aos animation for scroll animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- animate css for refresh animation -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+
+<body>
+  <div id="container">
+    <!-- Navigation -->
+    <nav>
+      <!-- logo -->
+      <img class="logo"
+        src="https://img.freepik.com/free-vector/logo-unique-colorful-gradient-design-illustration_483537-1225.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1725753600&semt=ais_hybrid"
+        alt="no image">
+      <!-- link -->
+      <ul>
+        <li class="list_items"><a class="link" href="#home">Home</a></li>
+        <li class="list_items"><a class="link" href="#sectionhead">About</a></li>
+        <li class="list_items"><a class="link" href="#skillsection">Skills</a></li>
+        <li class="list_items"><a class="link" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Home -->
+    <section id="home">
+      <!-- home details -->
+      <div class="homecontent">
+        <h1 class="animate__animated animate__shakeX" id="user_name">I'm Prajeeth <span id="lname">Menon</span></h1>
+        <p id="userdetails">This is my official portfolio to describe all <br> details and work experience in Web
+          development</p>
+        <a id="download" href="./Prajeeth_Menon_Resume.pdf" download>Download CV</a>
+      </div>
+      <!-- home image -->
+      <div class="homeimage">
+        <img id="shape" class="image" src="./image/image2.png" alt="no image">
+        <img id="shape1" class="image" src="./image/image1.png" alt="no image">
+      </div>
+
+    </section>
+    <!-- About -->
+    <section id="sectionhead">
+      <!-- font heading -->
+      <div class="heading">
+        <h1 class="mainhead">About Me</h1>
+        <h3 class="secondhead">Introduction</h3>
+      </div>
+      <div class="aboutbody">
+        <div data-aos="fade-right" class="aboutimage">
+          <img class="img1" src="image/profile.png" alt="no image">
+        </div>
+        <div class="aboutcontent">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, Lorem ipsum dolor sit amet consectetur
+            adipisicing elit.Facilis voluptate tempora necessitatibus modi? Deleniti aliquam odio, pariatur et ratione
+            excepturi.</p>
+          <div class="information">
+            <div class="info">
+              <i class="fa-solid fa-user"></i>
+              <span>Prajeeth Menon</span>
+            </div>
+            <div class="info">
+              <i class="fa-solid fa-phone"></i>
+              <span>8075005485</span>
+            </div>
+            <div class="info">
+              <i class="fa-solid fa-envelope"></i>
+              <span>prajeeth@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- font text -->
+    </section>
+    <!-- my skills -->
+    <section id="skillsection">
+      <!-- skillhead -->
+      <div class="heading">
+        <h1 class="mainhead">Skills</h1>
+        <h3 class="secondhead">My Skills</h3>
+      </div>
+      <!-- skillcontent -->
+      <div class="skillcontent">
+        <div class="progressbars">
+          <div class="bars">
+            <h3 class="headingbar">HTML</h3>
+            <span class="percentagebar">89%</span>
+            <div class="basebar"></div>
+            <div data-aos="fade-right" class="basebar htmlbar"></div>
+          </div>
+          <div class="bars">
+            <h3 class="headingbar">CSS</h3>
+            <span class="percentagebar">85%</span>
+            <div class="basebar"></div>
+            <div data-aos="fade-right" class="basebar CSSbar"></div>
+          </div>
+          <div class="bars">
+            <h3 class="headingbar">JS</h3>
+            <span class="percentagebar">40%</span>
+            <div class="basebar"></div>
+            <div data-aos="fade-right" class="basebar JSbar"></div>
+          </div>
+          <div class="bars">
+            <h3 class="headingbar">React</h3>
+            <span class="percentagebar">60%</span>
+            <div class="basebar"></div>
+            <div data-aos="fade-right" class="basebar Reactbar"></div>
+          </div>
+        </div>
+        <div data-aos="fade-left" class="skillimage">
+          <img src="./image/skillimage.png" alt="skills">
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
+    <section id="contact">
+      <!-- contacthead -->
+      <div class="heading">
+        <h1 class="mainhead">Contact</h1>
+        <h3 class="secondhead">My Contact</h3>
+      </div>
+      <!-- icons -->
+      <div class="iconcollection">
+        <!-- Twitter -->
+        <div class="icon">
+          <a href=""><i class="fa-brands fa-twitter brands"></i></a>
+        </div>
+        <!-- instagram -->
+        <div class="icon">
+          <a href=""><i class="fa-brands fa-instagram brands"></i></a>
+        </div>
+        <!-- linkedin -->
+        <div class="icon">
+          <a href=""><i class="fa-brands fa-linkedin brands"></i></a>
+        </div>
+        <!-- facebook -->
+        <div class="icon">
+          <a href=""><i class="fa-brands fa-facebook brands"></i></a>
+        </div>
+        <!-- github -->
+        <div class="icon">
+          <a href=""><i class="fa-brands fa-github brands"></i></a>
+        </div>
+        <!--watsup  -->
+        <div class="icon">
+        <a href=""><i class="fa-brands fa-whatsapp brands"></i></a>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+     <footer class="footer">
+      <p class="copyright"> &copy;My porfolio website-september 2024,All RightReserved to &reg; Prajeeth Menon</p>
+      <div class="icon uparrow">
+        <a href="#container"><i class="fa-solid fa-angle-up brands"></i></a>
+      </div>
+     </footer>
+
+  </div>
+
+
+
+
+
+
+
+
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</html>
